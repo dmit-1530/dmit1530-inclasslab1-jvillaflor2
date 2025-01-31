@@ -9,6 +9,104 @@
     body copy: 'Open Sans', sans-serif;
 */
 
+:root{
+    --night: #182222;
+    --dark-slate-gray: #405B5B;
+    --french-gray: #e2dfe7; 
+
+}
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--french-gray);
+    font-size: 1rem;
+
+}
+
+.container{
+    max-width:64rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom:2rem;
+}
+.flex-container img{
+    width: 50%;
+}
+.banner {
+    text-align: center;
+    padding: 3rem 1rem;
+
+}
+
+.banner p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--dark-slate-gray);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    height: 65px;
+    width: 150px;
+    margin: 2rem 0;
+   
+  
+}
+.top-p{
+    font-size: 1.5rem;
+    margin-bottom:1rem;
+}
+h1 {
+    font-size: 4rem;
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--dark-slate-gray);
+}
+
+
+h2 {
+    font-size:2.25rem;
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--dark-slate-gray)
+    
+}
+
+h3 {
+    font-size:1.25rem;
+}
+
+.why-jasper p{
+
+    color: var(--night);
+}
+    
+.why-jasper{
+    margin: 0;
+    max-width: 720px;
+    padding: 0 1rem;
+}
+    
+footer {
+
+    background-color: var(--night);
+    color: var(--french-gray);
+    text-align: center;
+    padding: 1rem;
+}
+
+footer h2 {
+    font-size: 1rem;
+}
+
+footer p {
+    color: var(--dark-slate-gray);
 }
